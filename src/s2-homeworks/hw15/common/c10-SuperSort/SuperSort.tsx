@@ -19,6 +19,7 @@ export const pureChange = (
   up: SortParamType
 ): SortParamType => {
   // пишет студент, sort: (click) => down (click) => up (click) => '' (click) => down ...
+  if (sort !== up && sort !== down) return down;
   if (sort === "") return down;
   if (sort.includes("1")) return up;
   return ""; // исправить
