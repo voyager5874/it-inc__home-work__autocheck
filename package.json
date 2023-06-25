@@ -1,6 +1,6 @@
 {
-  "name": "hws2",
-  "homepage": "http://IgnatZakalinsky.github.io/hws2",
+  "name": "it-inc__home-work",
+  "homepage": "https://voyager5874.github.io/it-inc__home-work__autocheck",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,8 @@
     "@types/react-dom": "18.0.6",
     "@types/uuid": "8.3.4",
     "axios": "0.27.2",
-    "gh-pages": "4.0.0",
+    "gh-pages": "^5.0.0",
+    "prettier": "^2.8.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "8.0.4",
